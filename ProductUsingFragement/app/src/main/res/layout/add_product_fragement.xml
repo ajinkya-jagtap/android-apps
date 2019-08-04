@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bbff"
+    tools:context=".AddProductFragement">
+
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="200dp"
+       android:layout_marginLeft="55dp"
+       android:layout_marginTop="20dp"
+       android:id="@+id/imgProduct"
+       android:background="#bfbfbf"
+
+       />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Name:-"
+            android:textSize="30dp"
+            android:id="@+id/textNameProduct"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Name"
+            android:textSize="30dp"
+            android:id="@+id/textEdtName"
+            />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Price:-"
+                android:textSize="30dp"
+                android:id="@+id/textPriceProduct"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Enter price"
+                android:textSize="30dp"
+                android:id="@+id/textEdtPrice"
+                />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Description:-"
+            android:textSize="30dp"
+            android:id="@+id/textDescProduct"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Description"
+            android:textSize="30dp"
+            android:id="@+id/textEdtDesc"
+            />
+
+    </LinearLayout>
+</LinearLayout>
